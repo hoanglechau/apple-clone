@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Myriad Set Pro';
+    src: url('../fonts/myriad-set-pro_bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Myriad Set Pro';
+    src: url('../fonts/myriad-set-pro_semibold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Myriad Set Pro';
+    src: url('../fonts/myriad-set-pro_medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Myriad Set Pro';
+    src: url('../fonts/myriad-set-pro_text.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Myriad Set Pro';
+    src: url('../fonts/myriad-set-pro_thin.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Myriad Set Pro';
+    src: url('../fonts/myriad-set-pro_ultralight.ttf') format('truetype');
+    font-weight: 100;
+}
+
+body {
+    font-family: 'Myriad Set Pro', 'Helvetica Neue', 'Helvetica', 'Arial',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 18px;
+    line-height: 1.45;
+    font-weight: 400;
+    letter-spacing: normal;
+    color: #333;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
