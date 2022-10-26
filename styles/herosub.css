@@ -1,0 +1,48 @@
+.hero-sub-section {
+    margin-top: 16px;
+}
+
+.hero-sub-images {
+    height: 200px;
+    background-size: 640px 200px;
+    border-right: 2px solid #fff;
+}
+
+.col-3 {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#hero-sub-watch {
+    background: url(../images/watch_large.jpg) center center no-repeat;
+}
+
+#hero-sub-ipad {
+    background: url(../images/ipad_pro_large.jpg) center center no-repeat;
+}
+
+#hero-sub-access {
+    background: url(../images/accessories_large.jpg) center center no-repeat;
+}
+
+#hero-sub-macbook {
+    background: url(../images/macbook_large.jpg) center center no-repeat;
+    border-right: none;
+}
+
+#exchange {
+    margin: 22px 0 18px;
+    letter-spacing: -0.1px;
+    text-align: center;
+    font-weight: 400;
+}
+
+#exchange a {
+    color: #08c;
+    text-decoration: none;
+}
+
+#exchange a:hover {
+    text-decoration: underline;
+}
