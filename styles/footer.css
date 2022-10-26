@@ -1,0 +1,114 @@
+footer {
+    background-color: #f2f2f2;
+    font-size: 12px;
+    line-height: 1.67;
+    font-weight: 400;
+    letter-spacing: -0.01px;
+    color: #666;
+}
+
+footer > .container {
+    padding: 0 22px;
+}
+
+.col-2 {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-nav {
+    padding-top: 20px;
+}
+
+.footer-nav ul:not(:first-child) {
+    padding-top: 20px;
+}
+
+.footer-nav ul > li:first-child {
+    font-weight: 600;
+    color: #333;
+}
+
+.footer-nav ul > li:not(:first-child) > a {
+    text-decoration: none;
+    color: #666;
+}
+
+.footer-nav ul > li:not(:first-child) > a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+.footer-help {
+    color: #999;
+    padding-top: 20px;
+    padding-bottom: 24px;
+}
+
+.footer-help > p:first-child {
+    border-bottom: 1px solid #e3e3e3;
+    margin-bottom: 6px;
+    padding-bottom: 5px;
+}
+
+.footer-help > p:first-child > a {
+    color: #08c;
+    text-decoration: none;
+}
+
+.footer-help > p:first-child > a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+.footer-help > div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#legal {
+    margin-right: 22px;
+}
+
+#legal-links > a {
+    color: #666;
+    text-decoration: none;
+}
+
+#legal-links > a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+#legal-links > a:not(:last-child) {
+    border-right: 1px solid #d6d6d6;
+    margin-right: 10px;
+    padding-right: 12px;
+}
+
+#locale {
+    float: right;
+}
+
+#locale > a {
+    vertical-align: top;
+    display: inline-block;
+    color: #666;
+    text-decoration: none;
+}
+
+#locale > a:hover {
+    color: #333;
+    text-decoration: underline;
+}
+
+#locale-flag {
+    display: inline-block;
+    height: 16px;
+    width: 21px;
+    background: url(../images/usa.png) 3px 0 no-repeat;
+    background-size: 16px 16px;
+    margin-top: 1px;
+    padding-right: 1px;
+}
